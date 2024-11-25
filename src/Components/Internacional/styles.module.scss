@@ -1,0 +1,37 @@
+section.internacional {
+  background-color: white;
+  margin-top: 1px;
+  padding: 1rem;
+
+  h1 {
+    font-size: 2.2em;
+    text-align: center;
+  }
+
+  .container {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+    gap: 1rem;
+    & > * {
+      flex: 1 800px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  section.internacional {
+    h1 {
+      font-size: 2em;
+    }
+
+    .container {
+      font-size: 1.4rem;
+    }
+  }
+}

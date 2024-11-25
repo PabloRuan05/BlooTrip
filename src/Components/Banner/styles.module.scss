@@ -1,0 +1,35 @@
+.banner {
+  height: 100vh;
+  background-image: url(https://images.pexels.com/photos/547116/pexels-photo-547116.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    color: white;
+    font-size: 4rem;
+    span {
+      color: rgb(0, 140, 255);
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .banner {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      span {
+        color: rgb(0, 140, 255);
+      }
+    }
+  }
+}
